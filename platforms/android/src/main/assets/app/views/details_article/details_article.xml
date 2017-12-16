@@ -1,0 +1,45 @@
+<Page loaded="loaded">
+	<Page.actionBar>
+		<ActionBar title="Détails de l'article">
+			<StackLayout orientation="horizontal">
+				<Image id="online_pic" src="~/images/online.png" class="action-image" visibility="collapsed"></Image>
+				<Image id="offline_pic" src="~/images/offline.png" class="action-image" visibility="collapsed"></Image>
+				<Label text="Détails de l'article" class="action-label"></Label>
+			</StackLayout>
+		</ActionBar>
+	</Page.actionBar>
+	<!--<StackLayout>
+	<Button text="Mode édition" tap="update" class="{{ editionMode ? 'invisible' : 'visible' }}"/>
+	<ListView items="{{ articleHTML }}" id="articleContent" row="1" colSpan="2">
+		<ListView.itemTemplate>
+			<StackLayout >
+				<WebView src="Bonjour" class="{{ editionMode ? 'invisible' : 'visible' }}"/>
+				<GridLayout id="mode_edition" rows="auto, *" columns="2*, *" class="{{ editionMode ? 'visible' : 'invisible' }}">
+					<TextView id="articleEdition" text="Salut" hint="Veuillez saisir le DOM de votre article" row="0" colSpan="2"/>
+					<Button text="Sauvegarder" tap="save" row="1" col="0"/>
+					<Button text="Annuler" tap="cancel" row="1" col="1"/>
+				</GridLayout>
+			</StackLayout>
+		</ListView.itemTemplate>
+	</ListView>
+	</StackLayout>-->
+
+	<TabView>
+		<TabView.items>
+			<TabViewItem title="Visualisation">
+				<TabViewItem.view>
+					<WebView src="{{ article_html }}"/>
+				</TabViewItem.view>
+			</TabViewItem>
+			<TabViewItem title="Édition">
+				<TabViewItem.view>
+						<GridLayout rows="auto, *" columns="2*, *">
+							<Button text="Sauvegarder" tap="save" row="0" col="0"/>
+							<Button text="Annuler" tap="cancel" row="0" col="1"/>
+							<TextView id="articleEdition" text="{{ article_html }}" hint="Veuillez saisir le DOM de votre article" row="1" colSpan="2"/>
+						</GridLayout>
+				</TabViewItem.view>
+			</TabViewItem>
+		</TabView.items>
+	</TabView>
+</Page>

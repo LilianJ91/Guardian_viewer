@@ -1,0 +1,9 @@
+.idea/
+demo-ng/
+screenshots/
+*.gif
+*.png
+*.log
+*.map
+*.ts
+!*.d.ts

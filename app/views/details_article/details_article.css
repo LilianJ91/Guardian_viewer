@@ -1,0 +1,16 @@
+Image {
+	margin: 10;
+}
+TextField{
+	border-width: 5;
+	border-style: solid;
+	border-color: #034793;
+}
+
+.visible{
+	visibility: visible;
+}
+
+.invisible{
+	visibility: collapse;
+}

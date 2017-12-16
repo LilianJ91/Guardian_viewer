@@ -1,0 +1,12 @@
+<Page loaded="loaded">
+	<Page.actionBar>
+	    <ActionBar title="Inscription"></ActionBar>
+	</Page.actionBar>
+    <StackLayout>
+		<Image src="~/images/logo_app_mobile_x1_5.jpg" stretch="none" horizontalAlignment="center" />
+        <TextField text="{{ email }}" id="email" hint="Adresse mail" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <TextField text="{{ password }}" secure="true" hint="Mot de passe" />
+
+        <Button text="S'inscrire" tap="register" />
+    </StackLayout>
+</Page>

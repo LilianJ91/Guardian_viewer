@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-25.3.1_33fa73e640b17ba36256ed8e10cabcc99cc0b697.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-25.3.1_5861a50cedc31f55944ba6266a9320050eb37f00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="070e55a51770a575df114689b7dbe44c7175e34e">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.nononsenseapps-filepicker-3.1.0_dec06aff168ea9e2b15aae0eab28f770f7643399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-25.3.1_7c7e99eecd87b51d620aa5d3d001dfc1694fa709.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-25.3.1_da49bdf235222b165c4fa8cd7a9c54a19534b422.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-25.3.1_c259e7d45966933f10fb8d527537e9b0cfb0bab5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed69cd5603304a6fc9a36a94c8be977a1d0e4857">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_b12e0d5c5e970df8b2a369ec9c63e4177724c8db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-25.3.1_b110e6ccd794e5a8008f5c5e34db8ed449c93d55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-25.3.1_577556eb5d6451e9f758e80ba76e143ef0790975.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-25.3.1_f0cb4536fcc898718deaf373a9e10875922a5c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-25.3.1_d4f02554d9277983f5b20b44cd1cf2473a7b5a49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="757d7e742ee90d50242abdc8616bfcfd04ad0575">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.aurelhubert-ahbottomnavigation-2.1.0_cc0c50d223945b12447835b65caf00abab9c1974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-25.3.1_29d352480f1d0fd258c896721323e27636906ada.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-25.3.1_4f7a3b71563eea6a8bd04a74bea241242ea6a837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-nativescript-optimized_bd39c30d63926652c367418d2093a6a647ba8bd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.3.1_209ea0a59c225bd04c889405d13b314977e901db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-25.3.1_507a6d1e58bd95dfa87f20d1aae71ee8cfaee72f.jar" />
+    </item>
+
+</items>

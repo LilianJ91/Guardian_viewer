@@ -1,0 +1,12 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptfilepicker" {
+            dimension "nativescriptfilepicker"
+        }
+    }
+}
+
+dependencies {
+    compile 'com.nononsenseapps:filepicker:3.1.0'
+}

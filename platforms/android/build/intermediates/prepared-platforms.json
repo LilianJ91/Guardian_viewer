@@ -1,0 +1,13 @@
+{
+    "email-validator": true,
+    "hash.js": true,
+    "nativescript-bottombar": true,
+    "nativescript-file-picker": true,
+    "nativescript-pulltorefresh": true,
+    "nativescript-sqlite": true,
+    "nativescript-theme-core": true,
+    "tns-core-modules": true,
+    "inherits": true,
+    "minimalistic-assert": true,
+    "tns-core-modules-widgets": true
+}

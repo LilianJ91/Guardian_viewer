@@ -1,0 +1,24 @@
+<Page xmlns:PullRefresh="nativescript-pulltorefresh" loaded="loaded">
+	<Page.actionBar>
+		<ActionBar title="{{categoryName}}">
+			<StackLayout orientation="horizontal">
+				<Image id="online_pic" src="~/images/online.png" class="action-image" visibility="collapsed"></Image>
+				<Image id="offline_pic" src="~/images/offline.png" class="action-image" visibility="collapsed"></Image>
+				<Label text="{{categoryName}}"  class="action-label"></Label>
+			</StackLayout>
+		</ActionBar>
+	</Page.actionBar>
+	<PullRefresh:PullToRefresh refresh="refreshList">
+		<GridLayout rows="auto, *" columns="2*, *">
+			<ListView items="{{ guardianArticleList }}" android:focusable="true" itemTap="guardianArticleTapped" id="guardianArticleList" row="1" colSpan="2">
+				<ListView.itemTemplate>
+					<StackLayout>
+						<Label textWrap="true" showable="{{ cache_or_online }}" text="{{ name }}"/>
+						<Label class="publication_date" showable="{{ cache_or_online }}" text="{{ publication_date }}"/>
+					</StackLayout> 
+				</ListView.itemTemplate>
+			</ListView>
+			<ActivityIndicator busy="{{ isLoading }}" rowSpan="2" colSpan="2" />
+		</GridLayout>
+	</PullRefresh:PullToRefresh>
+</Page>

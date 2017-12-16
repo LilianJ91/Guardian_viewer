@@ -1,0 +1,27 @@
+<Page loaded="loaded">
+	<Page.actionBar>
+		<ActionBar title="{{categoryName}}">
+			<StackLayout orientation="horizontal">
+				<Image id="online_pic" src="~/images/online.png" class="action-image" visibility="collapsed"></Image>
+				<Image id="offline_pic" src="~/images/offline.png" class="action-image" visibility="collapsed"></Image>
+				<Label text="{{categoryName}}"  class="action-label"></Label>
+			</StackLayout>
+		</ActionBar>
+	</Page.actionBar>
+	<GridLayout rows="auto, *" columns="2*, *">
+		<TextField id="newArticle" text="{{ article }}" hint="Créer un article" row="0" col="0" />
+		<Button text="Ajouter" tap="add" row="0" col="1" />
+		<ListView items="{{ myArticleList }}" android:focusable="true" itemTap="articleTapped" id="myArticleList" row="1" colSpan="2">
+			<ListView.itemTemplate>
+				<StackLayout>
+					<GridLayout columns="*, auto">
+							<Label textWrap="true" text="{{ name }}"/>
+							<Image src="res://ic_menu_delete" ios:visibility="collapsed" col="1" tap="delete" />
+					</GridLayout>
+					<Label class="publication_date" text="{{ publication_date }}"/>
+				</StackLayout>
+			</ListView.itemTemplate>
+		</ListView>
+		<ActivityIndicator busy="{{ isLoading }}" rowSpan="2" colSpan="2" />
+	</GridLayout>
+</Page>

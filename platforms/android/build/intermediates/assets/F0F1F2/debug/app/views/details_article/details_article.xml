@@ -1,0 +1,17 @@
+<Page loaded="loaded">
+	<Page.actionBar>
+		<ActionBar title="Détails de l'article">
+			<StackLayout orientation="horizontal">
+				<Image id="online_pic" src="~/images/online.png" class="action-image" visibility="collapsed"></Image>
+				<Image id="offline_pic" src="~/images/offline.png" class="action-image" visibility="collapsed"></Image>
+				<Label text="Détails de l'article" class="action-label"></Label>
+			</StackLayout>
+		</ActionBar>
+	</Page.actionBar>
+	<ListView items="{{ articleHTML }}" id="articleContent" row="1" colSpan="2" visibility="collapsed">
+		<ListView.itemTemplate>
+			<!--<WebView id="article_html" src="{{ article_html }}" />-->
+			<Label id="article_html" text="Test"></Label>
+		</ListView.itemTemplate>
+	</ListView>
+</Page>

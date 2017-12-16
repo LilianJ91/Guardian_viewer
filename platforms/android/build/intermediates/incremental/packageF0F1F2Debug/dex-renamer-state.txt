@@ -1,0 +1,4 @@
+#Sat Nov 25 20:42:50 CET 2017
+base.0=/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/transforms/dex/F0F1F2/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/transforms/dex/F0F1F2/debug/folders/1000/1f/main/classes.dex

@@ -1,0 +1,12 @@
+<Page loaded="loaded">
+	<Page.actionBar>
+	    <ActionBar title="Connexion"></ActionBar>
+	</Page.actionBar>
+	<StackLayout orientation="vertical">
+		<Image src="~/images/logo_app_mobile_x1_5.jpg" stretch="none" horizontalAlignment="center" />
+		<TextField id="email" text="{{ email }}" hint="Adresse mail" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+		<TextField secure="true" text="{{ password }}" hint="Mot de passe" />
+		<Button text="Se connecter" tap="signIn"/>
+		<Button text="S'inscrire" class="link" tap="register"/>
+	</StackLayout>
+</Page>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi/icon.png",
+        "source": "/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi/ic_menu_delete.png",
+        "source": "/home/lilianjau/NativescriptProjects/Guardian_viewer/platforms/android/src/main/res/drawable-ldpi/ic_menu_delete.png"
+    }
+]

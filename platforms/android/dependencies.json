@@ -1,0 +1,26 @@
+[
+    {
+        "name": "nativescript-bottombar",
+        "directory": "../../node_modules/nativescript-bottombar"
+    },
+    {
+        "name": "nativescript-pulltorefresh",
+        "directory": "../../node_modules/nativescript-pulltorefresh"
+    },
+    {
+        "name": "nativescript-sqlite",
+        "directory": "../../node_modules/nativescript-sqlite"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]
